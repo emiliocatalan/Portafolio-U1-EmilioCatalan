@@ -33,6 +33,8 @@ Las sugerencias entregadas por ChatGPT fueron revisadas y comparadas con las ins
 
 La información utilizada en el README y en la bitácora fue revisada antes de incorporarla, verificando que fuera coherente con los antecedentes disponibles y que no se agregaran datos que no estuvieran respaldados por los archivos del proyecto.
 
+Por ejemplo, no se incorporaron unidades como kN, mm o MPa, ya que estas no estaban especificadas de forma verificable en los archivos originales. De esta manera, se evitó agregar información basada únicamente en supuestos o en sugerencias que no pudieran ser comprobadas.
+
 ### Decisión final
 
 Se utilizaron únicamente las sugerencias de ChatGPT que fueron consideradas pertinentes para la actividad y que pudieron ser verificadas con la información disponible. A traves de esto, la revisión y decisión final sobre el contenido incorporado fue realizada por el estudiante.
@@ -47,5 +49,7 @@ Para revisar y documentar el proyecto se utilizaron los archivos heredados entre
 - `informe_final.docx`
 - `notas.txt`
 - `USO_IA_sin_completar.md`
+
+No se identificaron en el proyecto heredado referencias externas verificables sobre la norma del ensayo, el equipo utilizado o la procedencia original de los datos. Por esta razón, no se incorporaron antecedentes que no pudieran ser comprobados con los archivos disponibles.
 
 No se identificaron en el proyecto heredado referencias externas verificables sobre la norma del ensayo, el equipo utilizado o la procedencia original de los datos. Por esta razón, no se agregaron antecedentes que no pudieran ser comprobados con los archivos disponibles.
