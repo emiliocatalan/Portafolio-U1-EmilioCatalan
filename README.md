@@ -16,6 +16,29 @@ El repositorio se organizó de la siguiente manera:
 - `Proyecto_heredado_U1/Figura_resultados/`: contiene el gráfico entregado junto al proyecto.
 
 Los archivos originales se mantienen sin modificaciones ni sobrescritura.
+Esta estructura fue elegida para diferenciar claramente los datos originales, la documentación y los resultados del proyecto. De esta forma se evita sobrescribir los archivos heredados, se facilita la identificación de la procedencia de cada archivo y se permite que otra persona pueda continuar el trabajo de manera más ordenada.
+
+## Procedencia de los archivos
+
+### Archivos heredados
+
+Los siguientes archivos corresponden al proyecto original recibido:
+
+- `ensayo_hormigon.xlsx`
+- `ensayo_hormigon_FINAL_v2.xlsx`
+- `grafico_final.png`
+- `informe_final.docx`
+- `notas.txt`
+- `USO_IA_sin_completar.md`
+
+### Archivos creados durante esta actividad
+
+Los siguientes archivos fueron creados durante el desarrollo del portafolio:
+
+- `README.md`
+- `USO_IA.md`
+
+Los archivos heredados fueron conservados sin modificaciones ni sobrescritura.
 
 ## Datos de entrada
 
@@ -59,13 +82,37 @@ El proyecto heredado entrega como resultado:
 
 El gráfico fue entregado como un archivo de imagen separado de las planillas.
 
+## Procedimiento reproducible
+
+Para revisar y repetir el cálculo realizado en el proyecto heredado:
+
+1. Abrir el archivo `ensayo_hormigon_FINAL_v2.xlsx`.
+2. Identificar las columnas correspondientes a P, u y sigma.
+3. Revisar el diámetro indicado en los archivos originales: D = 150.
+4. Calcular el área de la sección circular mediante:
+
+A = π × D² / 4
+
+5. Para D = 150 se obtiene aproximadamente:
+
+A = 17671,46
+
+6. Comparar este resultado con el valor 17671,46 utilizado en las fórmulas de la planilla.
+7. Revisar el cálculo de sigma utilizado en la planilla:
+
+sigma = P × 1000 / 17671,46
+
+8. Obtener el valor máximo de la columna sigma y compararlo con el resultado presente en la planilla.
+9. Comparar los valores de desplazamiento y sigma con el gráfico `grafico_final.png`.
+
+Las unidades no se encuentran completamente documentadas en los archivos originales. Por esta razón, la verificación realizada se limita a la consistencia numérica de los cálculos y no asigna unidades que no puedan ser confirmadas.
+
 ## Herramientas utilizadas
 
 - Microsoft Excel
 - GitHub
 - Markdown para la documentación
-- ChatGPT como herramienta de apoyo para revisar, organizar y documentar el proyecto
-
+- ChatGPT como herramienta de apoyo para comprender las instrucciones, revisar los archivos y apoyar la redacción del README y parte de la bitácora.
 ## Unidades y supuestos
 
 Las unidades de tiempo, carga, desplazamiento, diámetro, altura y esfuerzo no se encuentran documentadas de manera explícita en los archivos originales.
